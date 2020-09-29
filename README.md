@@ -1,14 +1,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
 
-# CSS Drawings
+# CSS Art
 
 Pure CSS and HTML drawings of animals and other cute things. Some are animated.
 
 ## Installation
 
 ```bash
-npm install css-drawings
+npm i css-art
 ```
 
 ## Examples
