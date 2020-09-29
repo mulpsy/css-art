@@ -1,0 +1,28 @@
+{
+  "name": "css-drawings",
+  "version": "1.0.2",
+  "description": "Pure CSS and HTML drawings - some with animations",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mulpsy/css-drawings.git"
+  },
+  "keywords": [
+    "CSS",
+    "HTML",
+    "animation",
+    "keyframes",
+    "CSS3",
+    "HTML5",
+    "cub"
+  ],
+  "author": "mulpsymulp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mulpsy/css-drawings/issues"
+  },
+  "homepage": "https://github.com/mulpsy/css-drawings#readme"
+}
