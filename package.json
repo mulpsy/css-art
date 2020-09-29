@@ -1,6 +1,6 @@
 {
-  "name": "css-drawings",
-  "version": "1.0.2",
+  "name": "css-art",
+  "version": "1.0.0",
   "description": "Pure CSS and HTML drawings - some with animations",
   "main": "\"\"",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mulpsy/css-drawings.git"
+    "url": "git+https://github.com/mulpsy/css-art.git"
   },
   "keywords": [
     "CSS",
@@ -19,10 +19,10 @@
     "HTML5",
     "cub"
   ],
-  "author": "mulpsymulp",
+  "author": "mulpsy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mulpsy/css-drawings/issues"
+    "url": "https://github.com/mulpsy/css-art/issues"
   },
-  "homepage": "https://github.com/mulpsy/css-drawings#readme"
+  "homepage": "https://github.com/mulpsy/css-art#readme"
 }
