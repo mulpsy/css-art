@@ -1,0 +1,138 @@
+:root {
+	--background-theme: #e5e5ff;
+	--cub-color: #994d00;
+	--ear-inner-color: #fde7fd;
+	--eye-color: black;
+	--snout-color: #ffd9b3;
+	--nose-color: #403326;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	background-color: var(--background-theme);
+}
+
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+	position: absolute;
+	width: 20rem;
+	height: 20rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ears {
+	display: flex;
+	justify-content: space-between;
+	transition: 0.2s margin-top;
+}
+
+.ears .ear {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	background-color: var(--cub-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ears .ear::after {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50%;
+	background-color: var(--ear-inner-color);
+	content: "";
+	display: block;
+}
+
+.face {
+	height: 20rem;
+	width: 20rem;
+	border-radius: 50%;
+	background-color: var(--cub-color);
+	position: absolute;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.eyes {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.eyes .eye {
+	height: 1.5rem;
+	width: 1.5rem;
+	border-radius: 50%;
+	background-color: var(--eye-color);
+	transition: 0.2s height;
+}
+
+.snout {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	background-color: var(--snout-color);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin-bottom: 3rem;
+	transition: 0.2s margin-bottom;
+}
+
+.nose {
+	width: 1.5rem;
+	height: 0.5rem;
+	border-radius: 40%;
+	background-color: var(--nose-color);
+	margin-top: 1.4rem;
+}
+
+.bridge {
+	width: 0.3rem;
+	height: 2rem;
+	background-color: var(--nose-color);
+}
+
+.mouth {
+	width: 1rem;
+	height: 0.2rem;
+	border-radius: 30%;
+	background-color: var(--nose-color);
+}
+
+/***********************************************************/
+/*                        ANIMATIONS                       */
+/***********************************************************/
+@keyframes nod-snout-and-eyes {
+  0%   { margin-left: 0rem; }
+  25%  { margin-left: 2rem; }
+  50%  { margin-left: 0rem; }
+  75%  { margin-left: -2rem; }
+  100% { margin-left: 0rem; }
+}
+
+.container:hover .snout {
+	margin-bottom: 1rem;
+	animation: nod-snout-and-eyes 0.7s linear 0.3s infinite;
+}
+
+.container:hover .ears {
+	margin-top: 2rem;
+}
+
+.container:hover .eyes {
+	animation: nod-snout-and-eyes 0.7s linear 0.3s infinite;
+}
+
+.container:hover .eye {
+	height: 1rem;
+}
