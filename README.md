@@ -12,8 +12,21 @@ npm i css-art
 ```
 
 ## Examples
-* [Cub](https://codepen.io/mulpsy/pen/yLOrdQq)
 
+#### [Cub](https://codepen.io/mulpsy/pen/yLOrdQq)
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="cub/cub.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<cub-art></cub-art>
+```
 
 ## Usage
 
