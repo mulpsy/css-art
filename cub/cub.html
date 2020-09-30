@@ -1,27 +1,30 @@
-<!DOTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="cub.css" media="screen"/>
-  </head>
+	<head></head>
+	<body>
+		<template id="cub-art">
+		    <link rel="stylesheet" type="text/css" href="cub.css" media="screen"/>
+		  	<div class="container">
+		  		<div class="ears">
+			  		<div class="ear"></div>
+					<div class="ear right"></div>
+		  		</div>
+				<div class="face">
+					<div class="eyes">
+						<div class="eye"></div>
+						<div class="eye"></div>
+					</div>
+					<div class="snout">
+						<div class="nose"></div>
+						<div class="bridge"></div>
+						<div class="mouth"></div>
+					</div>
+				</div>
+		  	</div>
+		</template>
 
-  <body>
-  	<div class="container">
-  		<div class="ears">
-	  		<div class="ear"></div>
-			<div class="ear right"></div>
-  		</div>
-		<div class="face">
-			<div class="eyes">
-				<div class="eye"></div>
-				<div class="eye"></div>
-			</div>
-			<div class="snout">
-				<div class="nose"></div>
-				<div class="bridge"></div>
-				<div class="mouth"></div>
-			</div>
-		</div>
-  	</div>
-  </body>
+		<script src="./cub.js"></script>
 
+		<cub-art></cub-art>
+	</body>
 </html>
